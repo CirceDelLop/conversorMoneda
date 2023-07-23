@@ -48,7 +48,7 @@ public class Ejecutar
                 {
                     double valorInicial=validador.convertirADecimal(valorString);
                     BigDecimal valorConvertido=iniciarConvertirMoneda.elegirConversion(operacionMoneda,valorInicial);
-                    JOptionPane.showMessageDialog(null, valorConvertido,"Moneda convertida",JOptionPane.OK_OPTION);
+                    JOptionPane.showMessageDialog(null, valorConvertido,"Moneda convertida",JOptionPane.CLOSED_OPTION);
                 }
             }
             /*else 

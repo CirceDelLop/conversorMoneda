@@ -41,7 +41,7 @@ public class IniciarConvertirMoneda
 				return aLibraEsterlina.convertirAMoneda(moneda,BigDecimal.valueOf(valInicio));
 			}
 			
-			case A_WON_SURCOREANO->//Corregir
+			case A_WON_SURCOREANO->
 			{
 				return aWonSurCoreano.convertirAMoneda(moneda,BigDecimal.valueOf(valInicio));
 			}
@@ -52,7 +52,7 @@ public class IniciarConvertirMoneda
 			}
 			
 			//Convertir de la moneda elegida por el usuario a peso mexicano
-			case DE_DOLAR->//corregir
+			case DE_DOLAR->
 			{
 				return aDolar.convertirAPesoMx(moneda,BigDecimal.valueOf(valInicio));
 			}
